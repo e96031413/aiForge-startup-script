@@ -12,3 +12,15 @@ sh start_new_forge.sh
 ```
 conda env create -f aiForgeEnv.yml
 ```
+
+### Environment for [tfvaegan](https://github.com/akshitac8/tfvaegan)
+```
+cd aiForge-startup-script/TF-VAEGAN
+conda env create -f tfvaegan.yml
+```
+
+### Environment for [BBN](https://github.com/Megvii-Nanjing/BBN)
+```
+cd aiForge-startup-script/BBN
+conda env create -f BBN-WCL.yml
+```
