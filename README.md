@@ -3,12 +3,12 @@ A repository contains my personal script to install frequently used linux, pytho
 
 ## Usage
 
-For shell script:
+**For shell script:**
 ```
 sh start_new_forge.sh
 ```
 
-For conda
+**For conda:**
 ```
 conda env create -f aiForgeEnv.yml
 ```
