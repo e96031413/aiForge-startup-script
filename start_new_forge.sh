@@ -9,7 +9,7 @@ sudo apt-get install xvfb
 sudo apt-get install chromium-browser
 dpkg --configure -a
 apt-get install -f
-wget https://chromedriver.storage.googleapis.com/87.0.4280.88/chromedriver_linux64.zip
+wget https://chromedriver.storage.googleapis.com/89.0.4389.23/chromedriver_linux64.zip
 unzip chromedriver_linux64.zip && rm chromedriver_linux64.zip
 mv chromedriver /usr/bin/
 sudo /usr/sbin/service cron start
