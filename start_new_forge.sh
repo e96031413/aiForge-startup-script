@@ -3,6 +3,7 @@ conda update conda
 conda install python=3.7
 pip install torch==1.7.0+cu92 torchvision==0.8.0+cu92 torchaudio==0.7.0 -f https://download.pytorch.org/whl/torch_stable.html
 pip install -r requirements.txt
+pip install selenium twder
 
 sudo apt-get install cron
 sudo apt-get install xvfb
