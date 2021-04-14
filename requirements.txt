@@ -238,3 +238,6 @@ xgboost==0.90
 xlrd==1.2.0
 zict==1.0.0
 zipp==0.6.0
+pandas_datareader
+#pip install yfinance --upgrade --no-cache-dir
+#TA-Lib (https://mrjbq7.github.io/ta-lib/install.html)(https://gist.github.com/brunocapelao/ed1b4f566fccf630e1fb749e5992e964)
