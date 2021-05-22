@@ -1,13 +1,11 @@
-sudo apt update
-pip install torch==1.7.0+cu92 torchvision==0.8.0+cu92 torchaudio==0.7.0 -f https://download.pytorch.org/whl/torch_stable.html
-pip install -r requirements.txt
+apt update
 pip install selenium twder beautifulsoup4
 
-sudo apt-get install cron
-sudo apt-get install xvfb
-sudo apt-get install chromium-browser
-dpkg --configure -a
-apt-get install -f
+apt-get install cron
+apt-get install xvfb
+apt-get install chromium-browser
+# dpkg --configure -a
+# apt-get install -f
 # chromium-browser -version: check installed version
 wget https://chromedriver.storage.googleapis.com/90.0.4430.24/chromedriver_linux64.zip   # check version number here: https://chromedriver.storage.googleapis.com/
 unzip chromedriver_linux64.zip && rm chromedriver_linux64.zip
