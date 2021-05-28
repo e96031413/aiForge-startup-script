@@ -1,5 +1,6 @@
 sudo apt update
 pip install selenium twder beautifulsoup4
+pip install torch==1.7.1+cu92 torchvision==0.8.2+cu92 torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.html
 
 sudo apt-get install cron
 sudo apt-get install xvfb
