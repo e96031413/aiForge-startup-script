@@ -2,7 +2,7 @@ sudo apt update
 pip install selenium twder beautifulsoup4
 pip install torch==1.7.1+cu92 torchvision==0.8.2+cu92 torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.html
 pip install tensorflow-gpu==2.0.0
-conda install tsnecuda cuda100 -c cannylab
+conda install -y tsnecuda cuda100 -c cannylab
 
 sudo apt-get install cron -y
 sudo apt-get install xvfb -y
