@@ -7,6 +7,7 @@ conda install -y tsnecuda cuda100 -c cannylab
 # grad-cam
 pip uninstall -y enum34
 pip install grad-cam
+pip install ttach
 
 sudo apt-get install cron -y
 sudo apt-get install xvfb -y
