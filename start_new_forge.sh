@@ -28,4 +28,3 @@ sudo /usr/sbin/service cron start
 (crontab -l 2>/dev/null; echo "0 7 * * 2,3,4,5,6 /opt/conda/bin/python3.6 /root/notebooks/nfs/work/yanwei.liu/WebCrawler/us-stock.py") | crontab -
 (crontab -l 2>/dev/null; echo "0 12 * * 0-6 /opt/conda/bin/python3.6 /root/notebooks/nfs/work/yanwei.liu/WebCrawler/Currency_Sender.py") | crontab -
 (crontab -l 2>/dev/null; echo "0 9 * * 0-6 /opt/conda/bin/python3.6 /root/notebooks/nfs/work/yanwei.liu/WebCrawler/auto-search-flask-job-email/main.py") | crontab -
-(crontab -l 2>/dev/null; echo "0 19 * * * rsync -avu "/root/notebooks/Phison/" "/root/notebooks/nfs/work/yanwei.liu/Phison-defect-detection-main"") | crontab -   # 每天晚上7點自動備份資料夾到NAS
