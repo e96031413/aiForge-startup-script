@@ -2,6 +2,7 @@ sudo apt update
 pip install selenium twder beautifulsoup4
 pip install torch==1.7.1+cu92 torchvision==0.8.2+cu92 torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.html  #目前aiForge環境(CUDA=10.0)最高只支援到1.7.1版本
 pip install tensorboard==1.15
+pip install /root/notebooks/nfs/work/yanwei.liu/tsne-cuda/tsnecuda-2.1.0-py2.py3-none-any.whl
 # pip install tensorflow-gpu==2.0.0
 # conda install -y tsnecuda cuda100 -c cannylab
 
