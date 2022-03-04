@@ -4,6 +4,7 @@ pip install torch==1.7.1+cu92 torchvision==0.8.2+cu92 torchaudio==0.7.2 -f https
 pip install tensorboard==1.15
 pip install /root/notebooks/nfs/work/yanwei.liu/tsne-cuda/tsnecuda-2.1.0-py2.py3-none-any.whl
 # pip install tensorflow-gpu==2.0.0
+pip install pyro-ppl==1.5.1 # PyTorch version >= 1.6.0
 
 # grad-cam
 pip uninstall -y enum34
