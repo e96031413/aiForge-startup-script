@@ -1,10 +1,12 @@
 sudo apt update
 pip install selenium twder beautifulsoup4
 pip install torch==1.7.1+cu92 torchvision==0.8.2+cu92 torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.html  #目前aiForge環境(CUDA=10.0)最高只支援到1.7.1版本
+
+conda create --name pacl python=3.6 && conda activate pacl && pip install seaborn tensorboardX crc32c && pip install -U scikit-learn && pip install torchnet thop==0.0.4-2006032126 && pip install openpyxl
+
 pip install tensorboard==1.15
-pip install /root/notebooks/nfs/work/yanwei.liu/tsne-cuda/tsnecuda-2.1.0-py2.py3-none-any.whl
+pip install ../tsnecuda-2.1.0-py2.py3-none-any.whl
 # pip install tensorflow-gpu==2.0.0
-pip install pyro-ppl==1.5.1 # PyTorch version >= 1.6.0
 
 # grad-cam
 pip uninstall -y enum34
