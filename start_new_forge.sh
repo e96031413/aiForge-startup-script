@@ -6,6 +6,7 @@ pip install tensorboard==1.15
 pip install ../tsnecuda-2.1.0-py2.py3-none-any.whl
 # pip install tensorflow-gpu==2.0.0
 pip install timm==0.3.2 tensorboardX six
+pip install pyro-ppl==1.5.1
 
 # grad-cam
 pip uninstall -y enum34
