@@ -8,7 +8,7 @@ pip install ../tsnecuda-2.1.0-py2.py3-none-any.whl
 pip uninstall -y tensorflow && pip install tensorflow
 pip install timm==0.3.2 tensorboardX six
 pip install pyro-ppl==1.5.1
-pip install thop tqdm pytorch_metric_learning
+pip install thop tqdm pytorch_metric_learning openpyxl
 # grad-cam
 pip uninstall -y enum34
 pip install grad-cam
