@@ -1,7 +1,7 @@
 sudo apt update
 pip uninstall -y torch torchvision 
 pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu113
-pip install selenium twder beautifulsoup4 seaborn pandas thop tqdm pytorch_metric_learning openpyxl
+pip install selenium twder beautifulsoup4 seaborn sklearn pandas thop tqdm pytorch_metric_learning openpyxl natsort
 
 pip install tensorboard==2.9.0
 pip install ../tsnecuda-2.1.0-py2.py3-none-any.whl
