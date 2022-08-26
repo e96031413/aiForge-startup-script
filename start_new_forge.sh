@@ -1,13 +1,21 @@
 sudo apt update
+alias python=python3
+alias pip=pip3
+source ~/.bashrc
+wget http://bootstrap.pypa.io/get-pip.py
+python get-pip.py
+python -m pip install pycave
+pip install ipykernel --upgrade
+python -m ipykernel install --user
+
 pip uninstall -y torch torchvision 
 pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu113
 pip install selenium twder beautifulsoup4 seaborn sklearn thop tqdm pytorch_metric_learning openpyxl natsort
 pip install pandas==0.24.0
 
 pip install tensorboard==2.9.0
-pip install ../tsnecuda-2.1.0-py2.py3-none-any.whl
 pip uninstall -y tensorflow && pip install tensorflow
-pip install timm==0.3.2 tensorboardX six
+pip install timm tensorboardX six
 pip install pyro-ppl==1.5.1
 # grad-cam
 pip uninstall -y enum34
