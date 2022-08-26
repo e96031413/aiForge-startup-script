@@ -10,7 +10,7 @@ python -m ipykernel install --user
 
 pip uninstall -y torch torchvision 
 pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu113
-pip install selenium twder beautifulsoup4 seaborn sklearn thop tqdm pytorch_metric_learning openpyxl natsort
+pip install selenium twder beautifulsoup4 seaborn sklearn thop tqdm pytorch_metric_learning openpyxl natsort tensorboard_logger
 pip install pandas==0.24.0
 
 pip install tensorboard==2.9.0
