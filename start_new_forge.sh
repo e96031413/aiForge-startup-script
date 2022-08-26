@@ -8,15 +8,13 @@ python -m pip install pycave
 pip install ipykernel --upgrade
 python -m ipykernel install --user
 
-pip uninstall -y torch torchvision 
-pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu113
 pip install selenium twder beautifulsoup4 seaborn sklearn thop tqdm pytorch_metric_learning openpyxl natsort tensorboard_logger
 pip install pandas==0.24.0
 
 pip install tensorboard==2.9.0
-pip uninstall -y tensorflow && pip install tensorflow
 pip install timm tensorboardX six
-pip install pyro-ppl==1.5.1
+pip install pyro-ppl
+
 # grad-cam
 pip uninstall -y enum34
 pip install grad-cam
