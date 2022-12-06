@@ -3,7 +3,7 @@ apt upgrade -y
 
 pip install -U scikit-learn
 pip install selenium twder beautifulsoup4 seaborn thop tqdm pytorch_metric_learning openpyxl natsort tensorboard_logger
-pip install pandas seaborn numpy scikit-learn pycave
+pip install pandas seaborn numpy pycave
 
 pip install tensorboard timm tensorboardX six pyro-ppl
 
