@@ -2,7 +2,7 @@ apt update
 apt upgrade -y
 
 pip install -U scikit-learn
-pip install tensorboard tensorboardX selenium twder beautifulsoup4 seaborn thop tqdm pytorch_metric_learning openpyxl natsort tensorboard_logger opencv-python pandas seaborn numpy pycave
+pip install bayesian-optimization tensorboard tensorboardX selenium twder beautifulsoup4 seaborn thop tqdm pytorch_metric_learning openpyxl natsort tensorboard_logger opencv-python pandas seaborn numpy pycave
 
 # grad-cam
 pip uninstall -y enum34
