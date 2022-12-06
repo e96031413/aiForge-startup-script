@@ -1,28 +1,20 @@
-sudo apt update
-alias python=python3
-alias pip=pip3
-source ~/.bashrc
-wget http://bootstrap.pypa.io/get-pip.py
-python get-pip.py
-python -m pip install pycave
-pip install ipykernel --upgrade
-python -m ipykernel install --user
+apt update
+apt upgrade -y
 
-pip install selenium twder beautifulsoup4 seaborn sklearn thop tqdm pytorch_metric_learning openpyxl natsort tensorboard_logger
-pip install pandas==0.24.0
+pip install -U scikit-learn
+pip install selenium twder beautifulsoup4 seaborn thop tqdm pytorch_metric_learning openpyxl natsort tensorboard_logger
+pip install pandas seaborn numpy scikit-learn pycave
 
-pip install tensorboard==2.9.0
-pip install timm tensorboardX six
-pip install pyro-ppl
+pip install tensorboard timm tensorboardX six pyro-ppl
 
 # grad-cam
 pip uninstall -y enum34
 pip install grad-cam
 pip install ttach
 
-sudo apt-get install cron -y
-sudo apt-get install xvfb -y
-sudo apt-get install chromium-browser -y
+apt install cron -y
+apt install xvfb -y
+apt install chromium-browser -y
 
 # chromium-browser -version: check installed version
 wget https://chromedriver.storage.googleapis.com/90.0.4430.24/chromedriver_linux64.zip   # check version number here: https://chromedriver.storage.googleapis.com/
@@ -38,5 +30,3 @@ sudo /usr/sbin/service cron start
 (crontab -l 2>/dev/null; echo "0 7 * * 2,3,4,5,6 /opt/conda/bin/python3.6 /root/notebooks/nfs/work/yanwei.liu/WebCrawler/us-stock.py") | crontab -
 (crontab -l 2>/dev/null; echo "0 12 * * 0-6 /opt/conda/bin/python3.6 /root/notebooks/nfs/work/yanwei.liu/WebCrawler/Currency_Sender.py") | crontab -
 (crontab -l 2>/dev/null; echo "0 9 * * 0-6 /opt/conda/bin/python3.6 /root/notebooks/nfs/work/yanwei.liu/WebCrawler/auto-search-flask-job-email/main.py") | crontab -
-
-# conda create --name pacl python=3.6 && conda activate pacl && pip install seaborn tensorboardX crc32c && pip install -U scikit-learn && pip install torchnet thop==0.0.4-2006032126 && pip install openpyxl && pip install torch==1.7.1+cu92 torchvision==0.8.2+cu92 torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.html && conda deactivate
